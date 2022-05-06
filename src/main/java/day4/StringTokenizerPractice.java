@@ -4,9 +4,9 @@ import java.util.StringTokenizer;
 
 public class StringTokenizerPractice {
     public static void main(String[] args) {
-        StringTokenizer tokens1 = new StringTokenizer("Hello World");
-        StringTokenizer tokens2 = new StringTokenizer("Hello World"," ");
-        StringTokenizer tokens3 = new StringTokenizer("Hello World"," ",true);
+        StringTokenizer tokens1 = new StringTokenizer("day1.Hello World");
+        StringTokenizer tokens2 = new StringTokenizer("day1.Hello World"," ");
+        StringTokenizer tokens3 = new StringTokenizer("day1.Hello World"," ",true);
 
         System.out.println(tokens1.toString()); //java.util.StringTokenizer@1b6d3586
         System.out.println(tokens2.toString()); //java.util.StringTokenizer@4554617c

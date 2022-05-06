@@ -1,4 +1,4 @@
-package objectclassdemo;
+package day1.objectclassdemo;
 
 import java.util.Objects;
 

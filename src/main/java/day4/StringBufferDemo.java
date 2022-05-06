@@ -7,7 +7,7 @@ public class StringBufferDemo {
         //capacity = 16
         StringBuffer data = new StringBuffer();
 
-        data.append("Hello");
+        data.append("day1.Hello");
         //data.append("How are you today?");
         System.out.println(data);
         System.out.println(data.length()); //5

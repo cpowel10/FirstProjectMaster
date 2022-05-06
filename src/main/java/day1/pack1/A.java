@@ -1,4 +1,4 @@
-package pack1;
+package day1.pack1;
 
 public class A {
     public int i=100;

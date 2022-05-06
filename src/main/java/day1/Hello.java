@@ -1,5 +1,7 @@
-import hr.*;
-import finance.*;
+package day1;
+
+import day1.hr.*;
+import day1.finance.*;
 
 public class Hello {
     public void checkDetails(){
@@ -15,7 +17,7 @@ public class Hello {
         Hello hello = new Hello();
         System.out.println("1.Our first program");
         hello.displayDetails();
-        System.out.println("4.Hello and welcome to Revature");
+        System.out.println("4.day1.Hello and welcome to Revature");
         Customer customer = new Customer();
         customer.displayCustomerDetails();
         Salary s = new Salary();

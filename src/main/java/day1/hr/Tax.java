@@ -1,4 +1,4 @@
-package hr;
+package day1.hr;
 
 public class Tax {
     public void calculateTax(){

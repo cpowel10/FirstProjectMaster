@@ -1,4 +1,4 @@
-package finance;
+package day1.finance;
 
 public class Investors {
     public void totalInvestors(){

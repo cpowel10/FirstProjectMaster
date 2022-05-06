@@ -1,4 +1,4 @@
-package objectclassdemo;
+package day1.objectclassdemo;
 
 public class ProductClient {
     public static void main(String[] args) {

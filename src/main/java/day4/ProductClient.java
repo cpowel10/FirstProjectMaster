@@ -3,7 +3,7 @@ package day4;
 class Apple{
     @Override
     public String toString() {
-        return "Hello";
+        return "day1.Hello";
     }
 }
 public class ProductClient {

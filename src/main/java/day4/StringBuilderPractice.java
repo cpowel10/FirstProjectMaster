@@ -6,8 +6,8 @@ public class StringBuilderPractice {
         //However, if thread safety is needed, StringBuffer should be used
         StringBuilder builder = new StringBuilder(); //Default capacity = 16
 
-        builder.append("Hello");
-        System.out.println(builder); //Hello
+        builder.append("day1.Hello");
+        System.out.println(builder); //day1.Hello
         System.out.println(builder.length()); //5
         System.out.println(builder.capacity()); //16
 

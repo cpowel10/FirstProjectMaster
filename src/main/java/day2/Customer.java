@@ -38,6 +38,6 @@ public class Customer {
         cust1.print("Thanks for attending the session");
         cust1.print("Welcome to Revature");
         cust1.print();
-        cust1.print("Hello","IN");
+        cust1.print("day1.Hello","IN");
     }
 }
