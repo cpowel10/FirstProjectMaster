@@ -27,8 +27,8 @@ public class IOAndScannerExercise {
                 System.out.println("Not there " + paste + " does not exist, Hence cannot continue");
             }
             else {
-                FileInputStream reader = new FileInputStream(copy);
-                FileOutputStream writer = new FileOutputStream(paste);
+                BufferedInputStream reader = new BufferedInputStream(new FileInputStream(copy));
+                BufferedOutputStream writer = new BufferedOutputStream(new FileOutputStream(paste));
 
                 int i = 0;
                 while ((i = reader.read()) != -1) { //-1 indicates end of line
