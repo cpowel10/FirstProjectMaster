@@ -13,6 +13,7 @@ public class ScannerDemo {
         System.out.println("Please enter your age: ");
         age = scanner.nextInt();
 
+        //store in persistent storage like files or database
         System.out.println("Welcome: "+name+" and your age is: "+age);
     }
 }
