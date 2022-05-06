@@ -16,18 +16,18 @@ public class StringTokenizerPractice {
         while(tokens1.hasMoreTokens()){
             System.out.println("\'"+tokens1.nextToken()+"\'");
         }
-        System.out.println("\n--------------------------------");
+        System.out.println("\n---------------------------------");
 
         System.out.println("Tokens2 Strings (2 parameters): ");
         while(tokens2.hasMoreTokens()){
             System.out.println("\'"+tokens2.nextToken()+"\'");
         }
-        System.out.println("\n--------------------------------");
+        System.out.println("\n---------------------------------");
 
         System.out.println("Tokens3 Strings (3 parameters): ");
         while(tokens3.hasMoreTokens()){
             System.out.println("\'"+tokens3.nextToken()+"\'");
         }
-        System.out.println("\n--------------------------------");
+        System.out.println("\n----------------------------------");
     }
 }
