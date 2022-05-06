@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class WriteToFile {
     public static void main(String[] args) throws IOException {
-        //FileReader rdr = new FileReader("C:\\Users\\chris\\Desktop\\BloodbornePSX\\Manifest_NonUFSFiles_Win64.txt"); //Character stream -preferred for big files
-        FileOutputStream rdr = new FileOutputStream("C:\\Users\\chris\\Desktop\\reva.txt"); //byte stream
+        //FileReader rdr = new FileReader("C:\\Users\\chris\\Desktop\\BloodbornePSX\\Manifest_NonUFSFiles_Win64.txt"); //byte stream
+        FileOutputStream rdr = new FileOutputStream("C:\\Users\\chris\\Desktop\\reva.txt"); //Character stream -preferred for big files
 
         rdr.write(97);
 
