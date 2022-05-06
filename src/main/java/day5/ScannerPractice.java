@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerPractice {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int numbers[] = new int[5];
+        int[] numbers = new int[5];
         int sum = 0;
         int negCount = 0;
 
