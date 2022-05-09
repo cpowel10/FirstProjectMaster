@@ -23,8 +23,14 @@ public class ScannerDemo {
             //Ex: closing
             System.out.println("Finally");
         }
-
-        //store in persistent storage like files or database
-        System.out.println("Welcome: "+name+" and your age is: "+age);
+        if(age<0){
+            throw new InvalidMinAgeException("Age cannot be negative");
+        }
+        else if(age > 100){
+            throw new InvalidMaxAgeException("Age cannot be greater than 100");
+        }
+        else {
+            System.out.println("Welcome: " + name + " and your age is: " + age);
+        }
     }
 }
