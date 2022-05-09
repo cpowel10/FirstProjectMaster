@@ -2,6 +2,7 @@ import day6.Calculator;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @TestMethodOrder(value= MethodOrderer.OrderAnnotation.class)
 public class CalculatorTest2 {
@@ -100,5 +101,23 @@ public class CalculatorTest2 {
         int expected = 0;
         int actual = calc.multiply(10,0);
         assertEquals(expected,actual);
+    }
+
+    @Test
+    @DisplayName("10. Testing convert to numbers")
+    @Order(10)
+    public void testConvertNumbers(){
+        int actual = calc.convertToNumber("20");
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    @DisplayName("11. Testing convert to numbers \"Twenty\"")
+    @Order(11)
+    public void testConvertNumbers2(){
+        assertThrows(NumberFormatException.class, ()->{
+            int actual = calc.convertToNumber("Twenty");
+            assertEquals(expected,actual);
+        });
     }
 }
