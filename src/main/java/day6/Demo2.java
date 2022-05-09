@@ -5,8 +5,8 @@ import day2.Demo;
 public class Demo2 {
     public void display(){
         try {
-            int marks[] = new int[4]; //NegativeArrayException
-            System.out.println(marks[3]); //ArrayIndexOutOfBoundsException
+            int marks[] = new int[-4]; //NegativeArrayException
+            System.out.println(marks[10]); //ArrayIndexOutOfBoundsException
             System.out.println(1/0); //Arithmetic Exception
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array cannot be accessed beyond its size");

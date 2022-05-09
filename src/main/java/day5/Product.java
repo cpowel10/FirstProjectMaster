@@ -41,16 +41,20 @@ public class Product implements Serializable {
     }
 
     public void acceptProductDetails(){
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter product id: ");
-        productId= scan.nextInt();
-        System.out.println("Enter product name: ");
-        productName = scan.next();
-        System.out.println("Enter Quantity On Hand: ");
-        quantityOnHand = scan.nextInt();
-        System.out.println("Enter price: ");
-        price= scan.nextInt();
-        System.out.println();
+        try {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Enter product id: ");
+            productId= scan.nextInt();
+            System.out.println("Enter product name: ");
+            productName = scan.next();
+            System.out.println("Enter Quantity On Hand: ");
+            quantityOnHand = scan.nextInt();
+            System.out.println("Enter price: ");
+            price= scan.nextInt();
+            System.out.println();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());;
+        }
     }
     public void printProductDetails() {
         System.out.println("Product Id :" + getProductId());
