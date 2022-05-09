@@ -7,7 +7,7 @@ public class Demo2 {
         try {
             int marks[] = new int[4]; //NegativeArrayException
             System.out.println(marks[3]); //ArrayIndexOutOfBoundsException
-            System.out.println(1/0);
+            System.out.println(1/0); //Arithmetic Exception
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Array cannot be accessed beyond its size");
         }
