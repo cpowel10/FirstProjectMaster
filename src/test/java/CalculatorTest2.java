@@ -120,4 +120,22 @@ public class CalculatorTest2 {
             assertEquals(expected,actual);
         });
     }
+
+    @Test
+    @DisplayName("12. Testing division by 2 positive numbers")
+    @Order(12)
+    public void testCalculatorDivide1(){
+        int actual = calc.divide(40,2);
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    @DisplayName("13. Testing division by zero")
+    @Order(13)
+    public void testCalculatorDivide2(){
+        assertThrows(ArithmeticException.class, ()->{
+            int actual = calc.divide(40,0);
+            assertEquals(expected,actual);
+        });
+    }
 }
