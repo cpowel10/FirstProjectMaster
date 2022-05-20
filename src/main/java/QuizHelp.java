@@ -15,6 +15,12 @@ public class QuizHelp {
         for(String t : args){
             System.out.print(t);
         }
+
+        String S = "AAA";
+        char c = S.charAt(0);
+        S.length();
+        S.toLowerCase();
+        System.out.println(S.toLowerCase());
     }
 }
 
